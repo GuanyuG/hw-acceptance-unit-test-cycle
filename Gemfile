@@ -22,10 +22,8 @@ group :test do
   gem 'factory_girl_rails', '~> 4.7'
   gem 'simplecov', :require => false
 end
-group :production do
-  gem 'pg', '~> 0.20'
-end
 
+gem 'pg', '~> 0.20'
 # Gems used only for assets and not required
 # in production environments by default.
 
